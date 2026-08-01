@@ -1,7 +1,26 @@
 aid: usereframe
-name: Usereframe
-description: Usereframe is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Reframe
+description: 'Reframe (usereframe.ai) is a San Francisco-based Y Combinator Winter
+  2026 company, founded in 2025 by Bryan Zin (previously a Product Design Engineer
+  on the iPhone team at Apple) and Eric Wiener, building an AI-native hardware procurement
+  platform. Reframe automates the manual procurement process in hardware supply chains:
+  instead of emails and spreadsheets, AI agents handle purchase orders, supplier
+  follow-ups, and part tracking for both COTS and custom-manufactured components,
+  with Slack and Gmail integrations for team workflows. This API Evangelist profile
+  tracks Reframe as a company in the network; the company does not currently publish
+  a public developer API.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.usereframe.ai/apple-touch-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/usereframe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Hardware
+- Supply Chain
+- Procurement
+- AI Agents
+- Manufacturing
+- Purchase Orders
+- B2B
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.usereframe.ai/
+- type: SignUp
+  url: https://www.usereframe.ai/sign-up
+- type: Login
+  url: https://www.usereframe.ai/auth
+- type: TermsOfService
+  url: https://www.usereframe.ai/terms
+- type: PrivacyPolicy
+  url: https://www.usereframe.ai/privacy
+- type: LLMsTxt
+  url: llms/usereframe-llms.txt
+- type: DomainSecurity
+  url: security/usereframe-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

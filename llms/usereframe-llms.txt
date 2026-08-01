@@ -1,0 +1,23 @@
+# Reframe
+
+> Reframe (usereframe.ai) is a Y Combinator Winter 2026 company building an AI-native hardware procurement platform. AI agents automate purchase orders, supplier follow-ups, and part tracking across hardware supply chains, for both COTS and custom-manufactured components, with Slack and Gmail integrations. Reframe does not currently publish a public developer API.
+
+Founded in 2025 in San Francisco by Bryan Zin (previously Product Design Engineer, iPhone, at Apple) and Eric Wiener.
+
+## Company
+
+- [Website](https://www.usereframe.ai/): Reframe | Automate your hardware procurement
+- [How it works](https://www.usereframe.ai/how-it-works): Product walkthrough
+- [Sign up](https://www.usereframe.ai/sign-up): Create an account
+- [Terms of Service](https://www.usereframe.ai/terms)
+- [Privacy Policy](https://www.usereframe.ai/privacy)
+- [Y Combinator profile](https://www.ycombinator.com/companies/usereframe): W26 batch
+- [LinkedIn](https://www.linkedin.com/company/usereframe)
+
+## Contact
+
+- founders@usereframe.ai
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/usereframe/refs/heads/main/apis.yml): APIs.json profile for Reframe (no public APIs catalogued)

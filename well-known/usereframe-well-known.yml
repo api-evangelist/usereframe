@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.usereframe.ai/
+host: https://www.usereframe.ai
+note: The site is a single-page app whose server returns HTTP 200 with the SPA HTML
+  shell for every path (catch-all routing), so a 200 status alone does not indicate
+  a real document. Body content was inspected for each path; every /.well-known/
+  path and /llms.txt returned the HTML shell, not the document. No genuine well-known
+  discovery documents are published. robots.txt is the only real plain-text file
+  served.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  genuine: false
+  body: spa-html-shell
+- path: /.well-known/openid-configuration
+  status: 200
+  genuine: false
+  body: spa-html-shell
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  genuine: false
+  body: spa-html-shell
+- path: /.well-known/api-catalog
+  status: 200
+  genuine: false
+  body: spa-html-shell
+- path: /.well-known/ai-plugin.json
+  status: 200
+  genuine: false
+  body: spa-html-shell
+- path: /llms.txt
+  status: 200
+  genuine: false
+  body: spa-html-shell
+- path: /robots.txt
+  status: 200
+  genuine: true
+  body: allows all user agents
